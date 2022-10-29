@@ -26,15 +26,12 @@
 
             <?php
 
-            // الاتصال بالسيرفر او قاعدة
             $host               = "localhost";
             $user               = "root";
             $password      = "rootroot";
             $dbName       = "hospital";
         
             $conn = mysqli_connect($host, $user, $password,$dbName);
-
-            // ارسال المعلومات المُدخله بواسطة المريض الى قاعدة البيانات
             
             if($_POST['send']){
             
